@@ -1,6 +1,8 @@
 '''
     this is just a note
 '''
+import math
+import re
 
 
 ''' Setting a variable '''
@@ -21,7 +23,7 @@ print("My Name is " + "Bob:Ethan:Travis".split(":")[1])
 ''' Boolean must be capitalized and not in string quotations'''
 print(True)
 ''' comparison must be == '''
-''' = just sets a value'''
+''' = just sets a value'''git
 print(5 == 5)
 ''' test for truth according to system'''
 print(5 == 4)
@@ -149,12 +151,106 @@ print_something_2(age=30, name="Bryan")
 peopleList = ["Erin", "Bob", "Steve", "Phung", "Bryan"]
 
 
-def print_people(*people):
+''' For an array with data don't put the asterisk, for an object with multiple information*'''
+
+
+def print_people(people):
     for person in people:
         print("this person", person)
 
 
 print_people(peopleList)
+
+
+''' More dynamic programming'''
+
+
+def do_math(num1, num2):
+    return num1 + num2
+
+
+math1 = do_math(4, 6)
+math2 = do_math(12,36)
+
+print(math1 + math2)
+
+
+''' if, else, else if conditionals'''
+''' remember Boolean can be expressed as 'is' '''
+
+Person2 = {"name": "Esteban", "age": 25, "hobby": "code", "dead": "Maybe"}
+
+
+if Person2["dead"] is True:
+    print("he is dead")
+elif Person2["dead"] is False:
+    print("He is alive")
+else:
+    print("I don't know what you want from me")
+
+''' Set up a jumbled array, sorted it, then printed it sorted'''
+
+numberArray2 = [32, 4, 5, 645, 345, 23453, 34535, 534405, 32, 5, 9, 17]
+orgArray2 = sorted(numberArray2)
+
+for number in orgArray2:
+    print(number)
+
+''' ran a run loop with an counter'''
+
+run = True
+current = 1
+
+while run:
+    if current == 100:
+        run = False
+
+    else:
+        print(current)
+        current += 1
+
+''' took the int pi converted to string, looped through it to have it print the digit and its placement 
+had it break if it reached a number 7
+- Couldn't figure out how to make it run with a run sequence and a for loop
+- Made it work with break and continue 
+'''
+numberPi = str(math.pi)
+print(numberPi)
+
+digitPlacement = 1
+
+for number in numberPi:
+    if number == "7":
+        print("Stopped")
+        break
+    elif number == ".":
+        print("this is just a decimal")
+        continue
+    else:
+        if number == "3" and digitPlacement == 1:
+            print(str(number) + " in the 1's")
+        else:
+            print(str(number) + " in the " + str(digitPlacement) + "th place")
+            digitPlacement += 1
+
+''' importing libraries into a script (modules)'''
+''' importing re (regex) '''
+
+stringRegex = "'I AM NOT YELLING', she said. Though we knew it to not be true"
+stringRegex2 = "'I AM NOT YELLING', she said. Though we knew it to not be true 2345-343234 12324"
+print(stringRegex)
+
+''' We are calling the module regex and using the sub class function'''
+''' Telling it to remove all capitalized letters'''
+''' learn regex it's definitely useful'''
+new = re.sub('[A-Z]', '', stringRegex)
+new1 = re.sub('[.,\'A-Z+" "]', '', stringRegex)
+new2 = re.sub('[^0-9]', '', stringRegex2)
+print(new)
+print(new1)
+print(new2)
+
+
 
 
 
