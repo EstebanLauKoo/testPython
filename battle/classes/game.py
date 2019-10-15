@@ -1,5 +1,6 @@
 import random
 
+
 class Bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -37,6 +38,10 @@ class Person:
             self.hp = 0
         return self.hp
 
+    def reduce_mp(self, cost):
+        self.mp -= cost
+        return self.mp
+
     def get_hp(self):
         return self.hp
 
@@ -55,16 +60,16 @@ class Person:
     def get_spell_mp_cost(self, i):
         return self.magic[i]["cost"]
 
-    def choose_action(self):
+    def choose_actions(self):
         i = 1
-        print("Actions")
-        for item in self.actions:
-            print(str[i] + ":", item)
+        print(Bcolors.OKBLUE + Bcolors.BOLD + "Actions" + Bcolors.ENDC)
+        for item in self.action:
+            print(str(i) + ":", item)
             i += 1
 
     def choose_magic(self):
         i = 1
-        print("Magic")
+        print(Bcolors.OKBLUE + Bcolors.BOLD + "Magic" + Bcolors.ENDC)
         for spell in self.magic:
-            print(str[i] + ":", spell["name"], "(cost:", str(spell["mp"]) + ")")
+            print(str(i) + ":", spell["name"], "(cost:", str(spell["cost"]) + ")")
             i += 1

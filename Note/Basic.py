@@ -23,7 +23,7 @@ print("My Name is " + "Bob:Ethan:Travis".split(":")[1])
 ''' Boolean must be capitalized and not in string quotations'''
 print(True)
 ''' comparison must be == '''
-''' = just sets a value'''git
+''' = just sets a value'''
 print(5 == 5)
 ''' test for truth according to system'''
 print(5 == 4)
