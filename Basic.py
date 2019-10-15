@@ -154,7 +154,6 @@ def print_people(*people):
         print("this person", person)
 
 
-
 print_people(peopleList)
 
 
