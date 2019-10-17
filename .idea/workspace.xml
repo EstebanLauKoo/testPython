@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4971ed0-77ee-4b34-9c5e-56e98f3421b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/testPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testPython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battle/classes/magic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Intermediate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/MainBattle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/RPG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attack.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/Attack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle/MainBattle.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/MainBattle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battle/classes/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle/classes/game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,7 +148,8 @@
       <workItem from="1569096491659" duration="2548000" />
       <workItem from="1569447985633" duration="293000" />
       <workItem from="1569448402803" duration="606000" />
-      <workItem from="1571098421527" duration="6813000" />
+      <workItem from="1571098421527" duration="7465000" />
+      <workItem from="1571270962127" duration="3775000" />
     </task>
     <servers />
   </component>
@@ -187,5 +181,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/testPython$PythonRun.coverage" NAME="PythonRun Coverage Results" MODIFIED="1558807668058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/testPython$Calculator.coverage" NAME="RPG Coverage Results" MODIFIED="1571103909232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/battle" />
+    <SUITE FILE_PATH="coverage/testPython$RPG.coverage" NAME="RPG Coverage Results" MODIFIED="1571281743682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/battle" />
   </component>
 </project>
